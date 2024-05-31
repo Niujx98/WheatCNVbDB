@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>CNVbFingerprint - WheatCNVb</title>
+    <style type="text/css">img.wp-smiley, img.emoji { display: inline !important; border: none !important; box-shadow: none !important; height: 1em !important; width: 1em !important; margin: 0 .07em !important; vertical-align: -0.1em !important; background: none !important; padding: 0 !important; }</style>
+    <link rel="stylesheet" id="travelify_style-css" href="http://wheat.cau.edu.cn/WheatCNVb/static/style.css" type="text/css" media="all" />
+    <script type="text/javascript" src="http://wheat.cau.edu.cn/WheatCNVb/static/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="http://wheat.cau.edu.cn/WheatCNVb/static/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="http://wheat.cau.edu.cn/WheatCNVb/static/functions.min.js" id="travelify_functions-js"></script>
+    <style type="text/css">a { color: #57AD68; } #site-title a { color: ; } #site-title a:hover, #site-title a:focus { color: ; } .wrapper { background: #F8F8F8; } .social-icons ul li a { color: #d0d0d0; } #main-nav a, #main-nav a:hover, #main-nav a:focus, #main-nav ul li.current-menu-item a, #main-nav ul li.current_page_ancestor a, #main-nav ul li.current-menu-ancestor a, #main-nav ul li.current_page_item a, #main-nav ul li:hover > a, #main-nav ul li:focus-within > a { color: #fff; } .widget, article { background: #fff; } .entry-title, .entry-title a, .entry-title a:focus, h1, h2, h3, h4, h5, h6, .widget-title { color: #1b1e1f; } a:focus, a:active, a:hover, .tags a:hover, .tags a:focus, .custom-gallery-title a, .widget-title a, #content ul a:hover, #content ul a:focus, #content ol a:hover, #content ol a:focus, .widget ul li a:hover, .widget ul li a:focus, .entry-title a:hover, .entry-title a:focus, .entry-meta a:hover, .entry-meta a:focus, #site-generator .copyright a:hover, #site-generator .copyright a:focus { color: #439f55; } #main-nav { background: #57ad68; border-color: #57ad68; } #main-nav ul li ul, body { border-color: #439f55; } #main-nav a:hover, #main-nav a:focus, #main-nav ul li.current-menu-item a, #main-nav ul li.current_page_ancestor a, #main-nav ul li.current-menu-ancestor a, #main-nav ul li.current_page_item a, #main-nav ul li:hover > a, #main-nav ul li:focus-within > a, #main-nav li:hover > a, #main-nav li:focus-within > a, #main-nav ul ul :hover > a, #main-nav ul ul :focus-within > a, #main-nav a:focus { background: #439f55; } #main-nav ul li ul li a:hover, #main-nav ul li ul li a:focus, #main-nav ul li ul li:hover > a, #main-nav ul li ul li:focus-within > a, #main-nav ul li.current-menu-item ul li a:hover #main-nav ul li.current-menu-item ul li a:focus { color: #439f55; } .entry-content { color: #1D1D1D; } input[type="reset"], input[type="button"], input[type="submit"], .entry-meta-bar .readmore, #controllers a:hover, #controllers a.active, .pagination span, .pagination a:hover span, .pagination a:focus span, .wp-pagenavi .current, .wp-pagenavi a:hover, .wp-pagenavi a:focus { background: #57ad68; border-color: #57ad68 !important; } ::selection, .back-to-top:focus-within a { background: #57ad68; } blockquote { border-color: #439f55; } #controllers a:hover, #controllers a.active { color: #439f55; } input[type="reset"]:hover, input[type="reset"]:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:active, input[type="button"]:active, input[type="submit"]:active, .entry-meta-bar .readmore:hover, .entry-meta-bar .readmore:focus, .entry-meta-bar .readmore:active, ul.default-wp-page li a:hover, ul.default-wp-page li a:focus, ul.default-wp-page li a:active { background: #439f55; border-color: #439f55; }</style>
+    <style type="text/css" id="custom-background-css">body.custom-background { background-image: url("background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }</style>
+    <style> header {background-image: url('header.png');background-position: right; background-size: contain; background-repeat: no-repeat;} </style>
+	<link rel="stylesheet" id="travelify_style-css" href="http://wheat.cau.edu.cn/WheatCNVb/static/style2.css" type="text/css" media="all" />
+	<style>
+		#ac{
+			padding-right: 20px;
+			padding-left: 10px;
+			position: relative;
+			z-index: 2;
+			border: 1px solid #ced4da;
+			width: 168px;
+		}
+	</style>
+</head>
+
+<body class="home blog custom-background  elementor-default elementor-kit-8" style="min-width: 1100px;">
+    <div class="wrapper">
+		<header id="branding">
+			<div class="container clearfix">
+				<div class="hgroup-wrap clearfix">
+					<section class="hgroup-right"></section>
+					<hgroup id="site-logo" class="clearfix">
+					<h1 id="site-title">
+						<img src="logo.png" alt="WheatCNVb" style="width: auto; height: 65px;"></h1>
+					<h2 id="site-description">Database of read depth based fingerprint in wheat.</h2></hgroup>
+				</div>
+			</div>
+			<nav id="main-nav" class="clearfix">
+				<div class="container clearfix">
+					<ul class="root l_tinynav1">
+						<li id="menu-item-1502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1502">
+							<a href="./">Home</a>
+						</li>
+						<li id="menu-item-1508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1508">
+							<a href="./cnvplot.html">CNVb Plot</a>
+						</li>
+						<li id="menu-item-1509" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1509 current_page_item">
+							<a href="./cnvfingerprint.html" aria-current="page">CNVb Fingerprint</a>
+						</li>
+						<li id="menu-item-1510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1510">
+							<a href="./samplecomparision.html">Sample CNVb Comparision</a>
+						</li>
+						<li id="menu-item-1511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1511">
+							<a href="./RDmarkerdetail.html">CNVb Marker Info</a>
+						</li>
+						<li id="menu-item-1511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1511">
+							<a href="./sampleinfo.html">Sample Information</a>
+						</li>
+						<li id="menu-item-1512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1512">
+							<a href="./tutorial.html">About</a>
+						</li>
+
+						<!-- <li id="menu-item-1493" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1493">
+							<a href="https://demo.colorlib.com/travelify/blog/">Blog</a>
+							<ul class="sub-menu">
+							<li id="menu-item-1496" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1496">
+								<a href="https://demo.colorlib.com/travelify/blog/">Blog Medium Images</a>
+							</li>
+							<li id="menu-item-1495" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1495">
+								<a href="https://demo.colorlib.com/travelify/blog-large-image/">Blog Large Images</a>
+							</li>
+							<li id="menu-item-1494" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1494">
+								<a href="https://demo.colorlib.com/travelify/blog-full-content/">Blog Full Content</a>
+							</li>
+							</ul>
+						</li> -->
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div id="main" class="container clearfix" style="border-bottom: 5px solid #31731D;">
+			<div style="width:100%;display: flex;">
+				<div style="width:220px;flex-grow: 0;margin-right: 20px;">
+					<div style="padding:10px; border:1px solid #a3a3a3; border-radius: 5px;margin-bottom: 20px;">
+						<p style="margin-bottom: 5px;">Sample Name</p>
+						<div style="position: relative;">
+							<svg xmlns="http://www.w3.org/2000/svg" id="clearacsvg" width="14" height="14" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16" style="position: absolute;right: 33px;margin-top: 12px;color: #565656;display: none;z-index: 3;cursor:pointer;" onclick="document.getElementById('ac').value=''">
+								<path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+							</svg>
+		
+							<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16" style="pointer-events: none;position: absolute;right: 10px;margin-top: 13px;color: #565656;z-index: 3;">
+								<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+							</svg>
+							
+							<input type="text" class="form-control shadow-none searchbox" id="ac" placeholder="Accession ID" onfocusin="focusinac('ac');return false;" onfocusout="focusoutac('ac');return false;">
+		
+							<div id="acdd" class="acdd" style="z-index: 1;"> <div id="acddc"></div></div>
+						</div>
+
+						<!-- <p style="margin-bottom: 5px;">Upload File</p>
+						<input type="file" class="form-control-file" id="exampleFormControlFile1" style="margin-bottom: 10px;"> -->
+
+						<button type="button" class="btn btn-primary" style="display: block; margin-bottom: 10px;cursor:pointer;" onclick="updateplot()">Query</button>
+						<button type="button" class="btn btn-secondary" style="display: block;cursor:pointer;" onclick="download_plot('SVG', 'fingerprint.pdf')">
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"  viewBox="0 0 16 16">
+								<path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0zM9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1zm-1 4v3.793l1.146-1.147a.5.5 0 0 1 .708.708l-2 2a.5.5 0 0 1-.708 0l-2-2a.5.5 0 0 1 .708-.708L7.5 11.293V7.5a.5.5 0 0 1 1 0z"/>
+							</svg>
+							Download
+						</button>
+					</div>
+					<div style="border:1px solid #a3a3a3; border-radius: 5px; overflow: hidden; padding:10px;">
+						<h3 style="margin-bottom: 15px;color:#da7f10;">CNVb Marker Info</h3>
+						<span>
+							<span style="font-size: 17px;font-weight: 600;display: block;">Corresponding Intervals</span>
+							<span id="rdmi">
+								<span style="display: block;">.</span>
+							</span>
+						</span>
+						<span>
+							<span style="font-size: 17px;font-weight: 600;display: block;">Source</span>
+							<span style="display: block;" id="rdms">Unknown Source</span>
+						</span>
+						<span>
+							<span style="font-size: 17px;font-weight: 600;display: block;">Related Accessions</span>
+							<span id="rdbira">
+								<span style="display: block;">.</span>
+							</span>
+						</span>
+					</div>
+				</div>
+				<div style="width:0;flex-grow: 1;">
+					<div style="border:1px solid #a3a3a3; border-radius: 5px; overflow: hidden; padding:10px; margin-bottom: 20px;">
+						<div id="SVG"></div>
+						<!-- <img src="4.png"> -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+      	<footer id="footerarea" class="clearfix" style="display: flex;justify-content: center;padding: 10px 0 10px 0;width: 100%;">
+			<script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5lg8scfe7er&amp;t=." async="async"></script>
+			<img src="http://wheat.cau.edu.cn/WheatGermDB/img/cau_long.png" style="width: 200px;height: 60px;display: block;"/>
+			<div  style="width: 3px;height: 40px;background-color: #31731D; margin: 10px 5px 10px 5px; "></div>
+			<img src="http://wheat.cau.edu.cn/WheatGermDB/img/wggc.png"  style="width: 230px;height: 60px;display: block;"/>
+      	</footer>
+    </div>
+</body>
+
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/rgbcolor.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/canvg.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/jspdf.umd.min.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/d3.v4.min.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/svg2pdf.js-master/dist/svg2pdf.umd.min.js"></script>
+<script src="./static/public.js"></script>
+<script src="./static/cnvfingerprint.js"></script>
+<script>
+	var initimer = setInterval(function(){
+		if(markerloadedflag){
+			clearInterval(initimer);
+			render_heatmap(32);
+			updaterdminfo(".");
+			checkac1clearstyle();
+		}
+	},100);
+</script>
+
+</html>

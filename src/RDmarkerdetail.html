@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <title>SampleComparision - WheatCNVb</title>
+    <style type="text/css">img.wp-smiley, img.emoji { display: inline !important; border: none !important; box-shadow: none !important; height: 1em !important; width: 1em !important; margin: 0 .07em !important; vertical-align: -0.1em !important; background: none !important; padding: 0 !important; }</style>
+    <link rel="stylesheet" id="travelify_style-css" href="http://wheat.cau.edu.cn/WheatCNVb/static/style.css" type="text/css" media="all" />
+    <script type="text/javascript" src="http://wheat.cau.edu.cn/WheatCNVb/static/jquery.min.js" id="jquery-core-js"></script>
+    <script type="text/javascript" src="http://wheat.cau.edu.cn/WheatCNVb/static/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+    <script type="text/javascript" src="http://wheat.cau.edu.cn/WheatCNVb/static/functions.min.js" id="travelify_functions-js"></script>
+    <style type="text/css">a { color: #195ab6; } a:hover{text-decoration: underline #0f4288;color:#0f4288;} li > a:hover, h1>a:hover {text-decoration:none}</style>
+    <style type="text/css" id="custom-background-css">body.custom-background { background-image: url("background.png"); background-position: left top; background-size: auto; background-repeat: repeat; background-attachment: scroll; }</style>
+    <style> header {background-image: url('header.png');background-position: right; background-size: contain; background-repeat: no-repeat;} </style>
+	<link rel="stylesheet" id="travelify_style-css" href="http://wheat.cau.edu.cn/WheatCNVb/static/style2.css" type="text/css" media="all" />
+	<style>
+		#ac{
+			padding-right: 20px;
+			padding-left: 10px;
+			position: relative;
+			z-index: 2;
+			border: 1px solid #ced4da;
+			width: 211px;
+		}
+		#ac2{
+			padding-right: 20px;
+			padding-left: 10px;
+			position: relative;
+			z-index: 2;
+			border: 1px solid #ced4da;
+			width: 211px;
+		}
+	</style>
+</head>
+
+<body class="home blog custom-background  elementor-default elementor-kit-8" style="min-width: 1100px;">
+    <div class="wrapper">
+		<header id="branding">
+			<div class="container clearfix">
+				<div class="hgroup-wrap clearfix">
+					<section class="hgroup-right"></section>
+					<hgroup id="site-logo" class="clearfix">
+					<h1 id="site-title">
+						<img src="logo.png" alt="WheatCNVb" style="width: auto; height: 65px;"></h1>
+					<h2 id="site-description">Database of read depth based fingerprint in wheat.</h2></hgroup>
+				</div>
+			</div>
+			<nav id="main-nav" class="clearfix">
+				<div class="container clearfix">
+					<ul class="root l_tinynav1">
+						<li id="menu-item-1502" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-1502">
+							<a href="./">Home</a>
+						</li>
+						<li id="menu-item-1508" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1508">
+							<a href="cnvplot.html">CNVb profile</a>
+						</li>
+						<li id="menu-item-1510" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1510">
+							<a href="./samplecomparision.html">Variety compare</a>
+						</li>
+						<li id="menu-item-1511" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1511 current-menu-item current_page_item">
+							<a href="./RDmarkerdetail.html" aria-current="page">CNVb marker info</a>
+						</li>
+						<li id="menu-item-1513" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1513">
+							<a href="./userupload.html">Geno scan</a>
+						</li>
+						<li id="menu-item-1512" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1513">
+							<a href="./tutorial.html">About</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<div id="main" class="container clearfix" style="border-bottom: 5px solid #31731D;">
+			<div style="width:100%;border:1px solid #a3a3a3; border-radius: 5px;height: 100%;display: flex;margin-bottom: 20px;padding: 10px 0 10px 0;">
+				<div style="width: 350px;margin:0 auto;">
+					<p style="margin-bottom: 5px;">Query Key words:</p>
+					<div style="position: relative;width: 350px;">
+						<svg xmlns="http://www.w3.org/2000/svg" id="clearacsvg" width="14" height="14" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16" style="position: absolute;right: 33px;margin-top: 12px;color: #565656;display: none;z-index: 3;cursor:pointer;" onclick="document.getElementById('ac').value=''">
+							<path d="M1.293 1.293a1 1 0 0 1 1.414 0L8 6.586l5.293-5.293a1 1 0 1 1 1.414 1.414L9.414 8l5.293 5.293a1 1 0 0 1-1.414 1.414L8 9.414l-5.293 5.293a1 1 0 0 1-1.414-1.414L6.586 8 1.293 2.707a1 1 0 0 1 0-1.414z"/>
+						</svg>
+	
+						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16" style="pointer-events: none;position: absolute;right: 10px;margin-top: 13px;color: #565656;z-index: 3;">
+							<path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+						</svg>
+						
+						<input type="text" class="form-control shadow-none searchbox" style="width: 320px;" id="ac" placeholder="e.g. 1BL/1RS" onfocusin="focusinac2('ac');return false;" onfocusout="focusoutac2('ac');return false;">
+	
+						<div id="acdd" class="acdd" style="z-index: 1;"> <div id="acddc"></div></div>
+					</div>
+				</div>
+			</div>
+				
+
+
+			<div style="width:100%;display: flex;">
+				<div style="width:0;flex-grow: 1;">
+					<div style="border:1px solid #a3a3a3; border-radius: 5px; overflow: hidden; padding:10px; margin-bottom: 20px;background-color: rgb(235, 139, 139);display: none;" id="errormsg">
+						<span style="font-size: 21px;font-weight: 600;display: block;text-align: center;">Invalid Marker ID.</span>
+					</div>
+					<div style="border:1px solid #a3a3a3; border-radius: 5px; overflow: hidden; padding:10px; margin-bottom: 20px;display: none;" id="mainpanel">
+						<span>
+							<span style="font-size: 21px;font-weight: 600;display: block;">Marker ID</span>
+							<span style="display: block;" id="rdmid">.</span>
+						</span>
+						<span>
+							<span style="font-size: 21px;font-weight: 600;display: block;margin-top: 10px;">Corresponding Intervals</span>
+							<span style="display: block;" id="rdmi">.</span>
+						</span>
+						<span>
+							<span style="font-size: 21px;font-weight: 600;display: block;margin-top: 10px;">Source</span>
+							<span style="display: block;" id="rdms">Unknown Source</span>
+						</span>
+						<span>
+							<span style="font-size: 21px;font-weight: 600;display: block;margin-top: 10px;">Related Accessions</span>
+							<span style="display: block;" id="rdbira">.</span>
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+
+      	<footer id="footerarea" class="clearfix" style="display: flex;justify-content: center;padding: 10px 0 10px 0;width: 100%;">
+			<script type="text/javascript" src="//rf.revolvermaps.com/0/0/9.js?i=5lg8scfe7er&amp;t=." async="async"></script>
+			<img src="http://wheat.cau.edu.cn/WheatGermDB/img/cau_long.png" style="width: 200px;height: 60px;display: block;"/>
+			<div  style="width: 3px;height: 40px;background-color: #31731D; margin: 10px 5px 10px 5px; "></div>
+			<img src="http://wheat.cau.edu.cn/WheatGermDB/img/wggc.png"  style="width: 230px;height: 60px;display: block;"/>
+      	</footer>
+    </div>
+</body>
+
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/rgbcolor.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/canvg.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/jspdf.umd.min.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/d3.v4.min.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatGermDB/js/svg2pdf.js-master/dist/svg2pdf.umd.min.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatCNVb/static/rdmarkerdetail.js"></script>
+<script src="http://wheat.cau.edu.cn/WheatCNVb/static/public.js"></script>
+
+<script>
+	var initimer = setInterval(function(){
+		if(markerloadedflag){
+			clearInterval(initimer);
+			initfunc();
+		}
+	},100);
+	focusinac2 = function(id){
+		document.getElementById(id).style["border-bottom-width"] = 0;
+		document.getElementById(id).style["border-bottom-right-radius"] = 0;
+		document.getElementById(id).style["border-bottom-left-radius"] = 0;
+
+		acddintervalid = setInterval(function(){
+			let key = document.getElementById(id).value;
+			let h = "";
+			markersourcearray.forEach(function(d,i){
+				if(d[0].toLowerCase().indexOf(key.toLowerCase()) != -1){
+					let index = d[0].toLowerCase().indexOf(key.toLowerCase());
+					let s = d[0].substring(0, index);
+					s += "<font style='background: yellow;'>"  + d[0].substring(index, key.length+index) + "</font>";
+					s += d[0].substring(key.length+index, d[0].length) ;
+					h += "<a class='accrela' href='./RDmarkerdetail.html?markerid=" + d[1] + "'>" + s + "</a>";
+				}
+			});
+			document.getElementById(id+"ddc").innerHTML = h;
+		}, 100);
+
+		document.getElementById(id+"dd").style.display = "block";
+	}
+
+	focusoutac2 = function(id){
+		document.getElementById(id).style["border-bottom-width"] = null;
+		document.getElementById(id).style["border-bottom-right-radius"] = null;
+		document.getElementById(id).style["border-bottom-left-radius"] = null;
+		setTimeout('document.getElementById("' + id + 'dd").style.display = "none";document.getElementById("' + id + 'ddc").innerHTML = ""', 300);
+		clearInterval(acddintervalid);
+	}
+	checkac1clearstyle();
+</script>
+
+</html>
